@@ -1,0 +1,6 @@
+framework module SNTestSDK {
+  umbrella header "SNTestSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
