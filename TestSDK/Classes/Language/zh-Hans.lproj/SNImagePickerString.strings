@@ -1,0 +1,16 @@
+/* 
+  SNImagePickerString.strings
+  SNImagePicker
+
+  Created by SNde on 2017/3/10.
+  Copyright © 2017年 SNde. All rights reserved.
+*/
+"albums.title" = "照片";
+
+"assets.done" = "至少选择 %ld 项";
+
+"photo.authorization" = "缺少访问相册的权限";
+
+"photo.ok" = "确认";
+
+"photo.preview" = "预览";

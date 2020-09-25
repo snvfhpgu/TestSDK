@@ -1,0 +1,16 @@
+/* 
+  SNImagePickerString.strings
+  SNImagePicker
+
+  Created by SNde on 2017/3/10.
+  Copyright © 2017年 SNde. All rights reserved.
+*/
+"albums.title" = "Albums";
+
+"assets.done" = "At least,should choose %ld";
+
+"photo.authorization" = "Lack of access to the photo album";
+
+"photo.ok" = "Ok";
+
+"photo.preview" = "Preview";
