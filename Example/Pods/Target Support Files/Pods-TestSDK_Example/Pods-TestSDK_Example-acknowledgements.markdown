@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## TestSDK
+## SNTestSDK
 
 Copyright (c) 2020 snvfhpgu <ping>
 

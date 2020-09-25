@@ -1,9 +1,9 @@
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '10.0'
 
 target 'TestSDK_Example' do
-  pod 'TestSDK', :path => '../'
+  pod 'SNTestSDK', :path => '../'
 
   target 'TestSDK_Tests' do
     inherit! :search_paths

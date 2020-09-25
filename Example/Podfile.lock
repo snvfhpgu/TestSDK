@@ -1,16 +1,16 @@
 PODS:
-  - TestSDK (0.1.0)
+  - SNTestSDK (0.1.1)
 
 DEPENDENCIES:
-  - TestSDK (from `../`)
+  - SNTestSDK (from `../`)
 
 EXTERNAL SOURCES:
-  TestSDK:
+  SNTestSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TestSDK: da6afcdbfd8dda5f4dfc80fd1250348add5fa5e2
+  SNTestSDK: f7a128bf7338adfbd8c1a88599650fcbbdde9d05
 
-PODFILE CHECKSUM: ab0ad1141350ceccce7981e44666123da6f46b6d
+PODFILE CHECKSUM: 40d9add5872993abe5dd0a4987dee308b2877960
 
 COCOAPODS: 1.9.3
