@@ -59,7 +59,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		6012830C606DBFE34D5966E7 /* Pods-TestSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-TestSDK_Tests/Pods-TestSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		68258F9A36DA7529F0D69DF3 /* TestSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TestSDK.podspec; path = ../TestSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		68258F9A36DA7529F0D69DF3 /* SNTestSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SNTestSDK.podspec; path = ../SNTestSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6A36A967437F4823C4A86651 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6FD22AC99684E01C50B01A8A /* Pods-TestSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-TestSDK_Example/Pods-TestSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -189,7 +189,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				68258F9A36DA7529F0D69DF3 /* TestSDK.podspec */,
+				68258F9A36DA7529F0D69DF3 /* SNTestSDK.podspec */,
 				BB5313C6E4677F46263473DB /* README.md */,
 				6A36A967437F4823C4A86651 /* LICENSE */,
 			);
