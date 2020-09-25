@@ -16,7 +16,9 @@
     dispatch_once(&onceToken, ^{
         onlyOne = [[SNLocalizationSystem alloc]init];
 //        onlyOne->_bundle = [NSBundle mainBundle];
-        [onlyOne setValue:[NSBundle mainBundle] forKey:@"bundle"];
+        NSBundle *mainBundle = [NSBundle bundleForClass:[self class]];
+        NSBundle *resourcesBundle = [NSBundle bundleWithPath:[mainBundle pathForResource:@"Language" ofType:@"bundle"]];
+        [onlyOne setValue:resourcesBundle forKey:@"bundle"];
     });
     return onlyOne;
 }
