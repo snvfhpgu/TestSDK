@@ -7,49 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01AC5A4E0B6E413A7EBCF9D74058BAD5 /* SNAccessoryIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = AB251C04CB9608137018D0C9C32CA3A0 /* SNAccessoryIndicator.m */; };
-		0401A9ECD1DAC79E521BA1691771C457 /* SNImagePickerString.strings in Sources */ = {isa = PBXBuildFile; fileRef = AEE93960B46F417E5F2B76D42F72645F /* SNImagePickerString.strings */; };
-		0778B0F73853644677669E9B622D5F57 /* SNAssetsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A9F76E8E123CAC5464887FD902983B00 /* SNAssetsCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0868A76B1A62F89D68B54C1ABA990C6C /* SNCameraView.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31168DBD9FE6C77F261B0F7590984E /* SNCameraView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		172AA06333FF7B0DA35454B1AC212E59 /* SNAccessoryIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E93738921EFA2D816C023D0930EE04 /* SNAccessoryIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		192725FF600A5945D3F9D64B20F132BC /* SNAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A19C341682B1B64DD0C9461461C2F1 /* SNAssetsViewController.m */; };
+		0C6BE19159FEA54E3C931A09469D550F /* SNCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B02750543C992D990ADA12D3DA8CBF /* SNCameraView.m */; };
+		0C9483FE5FE108DDEB68EBA198E9184F /* SNAlbumsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 254784379A499DD1056260AFE3E6A373 /* SNAlbumsCell.m */; };
+		146A1AE90B0E83DFA1DB6770A4C03551 /* SNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDB81C1C1B6F8627873A9E6E54AE846 /* SNNavigationController.m */; };
+		1A549FD0E3BA675F90320226BF821301 /* SNAlbumsDataModle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2834C7E8377C4ACAB6E532E79B2E4015 /* SNAlbumsDataModle.m */; };
+		1E50907C59527C41A2E6BDA62250D813 /* SNView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCA9A9C32A4451CAF238315289BCC17 /* SNView+Frame.m */; };
 		218F41B0EC5AD2933C4C4688440E5D2B /* Pods-TestSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA3C5EDB0B063E70C1DBCCD30E6ABF1 /* Pods-TestSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DA0A13F3341220D34D01A08CC254570 /* SNImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1DFE86DCE4A6594975B8F4D93BC8E3 /* SNImagePickerController.m */; };
-		2F31647BD12B9D95B0A91687B09E505E /* SNAlbumsDataModle.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E58FB0F8BFF3E9D988D7C6BAE77DF2 /* SNAlbumsDataModle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		269A17510605AB56319A5886D99F9C08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2E4C34FD49BD26C9A24A968D73DFE347 /* SNAssetsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 74715FF1A364BDA4639BDC60898D0BC3 /* SNAssetsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3540BC59E3A977272FB0BEC90C14F778 /* Pods-TestSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D671AC8A3E179EDF78E9ED0C22D133D /* Pods-TestSDK_Tests-dummy.m */; };
+		367FA1352B7DFC9BF1F88B256C5C7262 /* SNVideoIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1787DA5FA2084AA10679586EEC52AEC /* SNVideoIndicatorView.m */; };
+		374714FAB7F08249F97908CB6177FB6F /* SNLocalizationSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8564273CD127E832C315A57B7E6D6D /* SNLocalizationSystem.m */; };
 		3C9A6E0EC9DD8DFA2A702E980321375B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		40FE89BAC226A7A1F3EF0062F8AFF03C /* SNAlbumsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8869A1582516D8861BCA92BEEC7845CA /* SNAlbumsCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		517A8DBD835954F2350FA8996D5AFF9E /* SNView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCA9A9C32A4451CAF238315289BCC17 /* SNView+Frame.m */; };
-		52BF2AB050E199F5361EDF9AC4BA09B5 /* SNTestSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F956D49F86DB4FDDFBBC4E6184AD01 /* SNTestSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		530ABC2F16B590240EED93F46C1890AD /* SNCheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 157624A9FF48DA2F009CEAB72050B4C0 /* SNCheckmarkView.m */; };
-		555EA964F41D40E5CB09B28F14E40B70 /* SNTestSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A04B1CF783C0E1C8DF7BF53FAC1ED8C /* SNTestSDK-dummy.m */; };
-		599F4EDE91D8CCAA03611AFC015F5479 /* SNCheckmarkView.h in Headers */ = {isa = PBXBuildFile; fileRef = EED93DEE115130F4403821C6F5169A15 /* SNCheckmarkView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F1ADDBF5E5B7D64C038898E23F74C5E /* SNCheckmarkView.h in Headers */ = {isa = PBXBuildFile; fileRef = EED93DEE115130F4403821C6F5169A15 /* SNCheckmarkView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		436287B36C174DB5F42975EF540C9F85 /* SNAccessoryIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = AB251C04CB9608137018D0C9C32CA3A0 /* SNAccessoryIndicator.m */; };
+		44AEAA5E3A5801D2945F10728EFDE7A6 /* SNTestSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F956D49F86DB4FDDFBBC4E6184AD01 /* SNTestSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CF21A24FCA8A8114122E1CAE483B86A /* SNAccessoryIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E93738921EFA2D816C023D0930EE04 /* SNAccessoryIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F0ACF78C202315E5A6782783C1D447B /* SNAlbumsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8869A1582516D8861BCA92BEEC7845CA /* SNAlbumsCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		537FF917EFA371EA759ED226AD63EED3 /* SNImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1DFE86DCE4A6594975B8F4D93BC8E3 /* SNImagePickerController.m */; };
 		67DE80670BEA67FB7F283B2BB6679D59 /* Pods-TestSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F02F6E50D172F1ECDBC8FB8207C8ABED /* Pods-TestSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B664978EC9A2665094460302D01DD69 /* SNLocalizationSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0612CD6D67FD33F0AFA2E874B68C40 /* SNLocalizationSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FC211AA3EE4358DDBE151F48112FD72 /* SNView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8F4B74489DA800B565A12AB9A73FF4 /* SNView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FFCC1E6672BAABEB4D1895421C01ADA /* SNVideoIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = AC21E79EB6BB1B5797E678DAB6080145 /* SNVideoIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7049B15E34943C2CE660B927BDA65585 /* SNImagePickerString.strings in Sources */ = {isa = PBXBuildFile; fileRef = 08F43B3B61F16E1D7F8F8D62F86A030D /* SNImagePickerString.strings */; };
-		73F8C4A225A9F1E48FF22B5D7AEFB36E /* SNImagePickerString.strings in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C072077DB58434F85388B890A9D46 /* SNImagePickerString.strings */; };
-		89C3EA27C5E7D740091E973E56602FBC /* SNImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 405805F8080C8878478DFFAA97BE02BD /* SNImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DF904D295B675896E72492B495FC4F5 /* SNNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CE343F2F5F6AA36EFBF9BD0448A7D6B /* SNNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		702C7CF905E69F48D7E0DF814F6047B5 /* SNAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A19C341682B1B64DD0C9461461C2F1 /* SNAssetsViewController.m */; };
+		72E9DE350EC390F6AF6B071794BCB020 /* UIViewController+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA247B2B03CE3C2E278656A5CD1A57 /* UIViewController+Base.m */; };
+		744C7E1B29220E6070BBDF11A0BD0E45 /* SNLocalizationSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FE9E04EBF20D31B63428928CF621644 /* SNLocalizationSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		759F8328E0A637450EAD6F0C7B950DB2 /* SNAlbumsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AA3DB65AF811672D0818305EADF3641 /* SNAlbumsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84311CF97BBA822782A072C4E8270B54 /* SNVideoIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4673586128542C117AA8C05B9C6D3F8C /* SNVideoIconView.m */; };
+		8C218AFFC06B989D4CFEF0FF1DB584A1 /* Root.plist in Sources */ = {isa = PBXBuildFile; fileRef = 3D0340B8AC5BD3FDE9BCEB312FBED61F /* Root.plist */; };
 		921536304115B6DD135ED05AB85531D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9402B6A7E1B6F043C3808D2A53C05D98 /* SNCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B02750543C992D990ADA12D3DA8CBF /* SNCameraView.m */; };
-		943E04C692CFBCC2829C44F214D08D85 /* SNImagePickerString.strings in Sources */ = {isa = PBXBuildFile; fileRef = FCE345193B85DCC41579D7D983F9A003 /* SNImagePickerString.strings */; };
-		971654B327A588903645ED503D677F56 /* SNNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CE343F2F5F6AA36EFBF9BD0448A7D6B /* SNNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9937A585F3712E25687D45273CBB91A8 /* UIViewController+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA247B2B03CE3C2E278656A5CD1A57 /* UIViewController+Base.m */; };
-		A026B7B71FAA819677622DEF61E41869 /* SNAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A41263A9EBABCCD5CE088CD45181 /* SNAlbumsViewController.m */; };
+		A6C5E6ADF8E446D5D51D02D073E8BA63 /* SNCameraView.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31168DBD9FE6C77F261B0F7590984E /* SNCameraView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A91BEB8C8B116A5B3564A8B9CDC9B2A2 /* Pods-TestSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1741D2C48EF15DC0C65F42D3EC75FA /* Pods-TestSDK_Example-dummy.m */; };
-		ABDC988308DBEEB7B445DEDB62E1EE67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C1C59CD2C018ED458611D17FAC971D2F /* SNAssetsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 474E563E6A54108C4978D95AA27AABA6 /* SNAssetsCell.m */; };
-		C95BEB40D732FF29FB53C92C70D941C7 /* SNAlbumsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AA3DB65AF811672D0818305EADF3641 /* SNAlbumsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0E5ABAA5740EF814D5BC1BBB33900CC /* SNVideoIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4673586128542C117AA8C05B9C6D3F8C /* SNVideoIconView.m */; };
-		D0F79881A13DC5BAFA3675C127A59D71 /* SNAlbumsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 254784379A499DD1056260AFE3E6A373 /* SNAlbumsCell.m */; };
-		DCC2B109C4F7C7016C1FEA7F7910BCB1 /* SNLocalizationSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D9D0341B1DEBC2579E429A1A824EC2 /* SNLocalizationSystem.m */; };
-		E09A00DA9820375B68FC5EA2E4006FA0 /* SNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDB81C1C1B6F8627873A9E6E54AE846 /* SNNavigationController.m */; };
-		E8569E7E53ED5FC081205D54890525C4 /* SNVideoIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1787DA5FA2084AA10679586EEC52AEC /* SNVideoIndicatorView.m */; };
-		F5AE1FD74BF2484D873488377091A7C7 /* SNAssetsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 74715FF1A364BDA4639BDC60898D0BC3 /* SNAssetsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA06BE8DE3677BCC05574C287728AF68 /* SNAlbumsDataModle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2834C7E8377C4ACAB6E532E79B2E4015 /* SNAlbumsDataModle.m */; };
-		FE63A8E477277CA71BB3D1A9CA672154 /* SNVideoIconView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1E38889048E44ECB1C135FB500CFD6 /* SNVideoIconView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF0492BA145590BF350A1F8956D12D79 /* UIViewController+Base.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3630CD49504A3F49FA6C0BEA610AAF /* UIViewController+Base.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AABE17073BB6A7B030A9B457CB318778 /* SNAssetsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A9F76E8E123CAC5464887FD902983B00 /* SNAssetsCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B16B63947FCE13EAF9223D69FB3CE455 /* SNImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 405805F8080C8878478DFFAA97BE02BD /* SNImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B44B59D1BB82A9821FF51294ECD0D6A8 /* SNVideoIconView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1E38889048E44ECB1C135FB500CFD6 /* SNVideoIconView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3404ED38AA44B1C9CC87C1E3262661D /* SNVideoIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = AC21E79EB6BB1B5797E678DAB6080145 /* SNVideoIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E232D21E786180E823FB36C4DE87420A /* SNTestSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A04B1CF783C0E1C8DF7BF53FAC1ED8C /* SNTestSDK-dummy.m */; };
+		E2874012FFE90963FE2A8B567AB8DB24 /* SNImagePickerString.strings in Sources */ = {isa = PBXBuildFile; fileRef = 52927FA5891E454C83FD605E3EC6F947 /* SNImagePickerString.strings */; };
+		E4B120AF3535C5B847C8AC7B531BF2D5 /* SNAssetsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 474E563E6A54108C4978D95AA27AABA6 /* SNAssetsCell.m */; };
+		E60EA9217FD42CEB9E9A5DDC484698FE /* SNView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8F4B74489DA800B565A12AB9A73FF4 /* SNView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDE92D05EE29B797535856042176E8E7 /* SNImagePickerString.strings in Sources */ = {isa = PBXBuildFile; fileRef = 86780FB9C8260AF0298060015AFCF09C /* SNImagePickerString.strings */; };
+		F4C8856E5F41895025D109F29FDC65BA /* SNCheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 157624A9FF48DA2F009CEAB72050B4C0 /* SNCheckmarkView.m */; };
+		F65068F1E19907FE0E1A41C73294EDD1 /* SNImagePickerString.strings in Sources */ = {isa = PBXBuildFile; fileRef = 7FA1A1A6A8DDC7C5C1197E461EA6CD90 /* SNImagePickerString.strings */; };
+		F7652F5FF630B551EF52D8522D0B0357 /* SNAlbumsDataModle.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E58FB0F8BFF3E9D988D7C6BAE77DF2 /* SNAlbumsDataModle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB8D243CA337F34CB51B96BFAF3CDD3E /* SNAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A41263A9EBABCCD5CE088CD45181 /* SNAlbumsViewController.m */; };
+		FC8B220CD0CE687F6E30A912C19CFB26 /* SNImagePickerString.strings in Sources */ = {isa = PBXBuildFile; fileRef = 073847DA46A83B1F880B29B249818D15 /* SNImagePickerString.strings */; };
+		FE0DE0E89AEF9F27A5DCCCD10AF3D96F /* UIViewController+Base.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3630CD49504A3F49FA6C0BEA610AAF /* UIViewController+Base.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,11 +72,10 @@
 
 /* Begin PBXFileReference section */
 		019206CE21A83C7AB4F356C0217796B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		08F43B3B61F16E1D7F8F8D62F86A030D /* SNImagePickerString.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = SNImagePickerString.strings; path = zh.lproj/SNImagePickerString.strings; sourceTree = "<group>"; };
+		073847DA46A83B1F880B29B249818D15 /* SNImagePickerString.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = SNImagePickerString.strings; path = zh.lproj/SNImagePickerString.strings; sourceTree = "<group>"; };
 		0C0A6266AA10F74315696590F9F0FD25 /* Pods-TestSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0CE343F2F5F6AA36EFBF9BD0448A7D6B /* SNNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SNNavigationController.h; path = TestSDK/Classes/SNNavigationController.h; sourceTree = "<group>"; };
 		0D671AC8A3E179EDF78E9ED0C22D133D /* Pods-TestSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		0D9C072077DB58434F85388B890A9D46 /* SNImagePickerString.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = SNImagePickerString.strings; path = en.lproj/SNImagePickerString.strings; sourceTree = "<group>"; };
 		0FDDB67B0E9C48AD7B7B5CCB59928D04 /* Pods-TestSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		157624A9FF48DA2F009CEAB72050B4C0 /* SNCheckmarkView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SNCheckmarkView.m; path = TestSDK/Classes/SNCheckmarkView.m; sourceTree = "<group>"; };
 		15A19C341682B1B64DD0C9461461C2F1 /* SNAssetsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SNAssetsViewController.m; sourceTree = "<group>"; };
@@ -90,28 +90,32 @@
 		35901711D7B165D203EAABBCF59DD58A /* SNTestSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SNTestSDK.debug.xcconfig; sourceTree = "<group>"; };
 		35CD15AD472B20202AE5858B6C0AEE71 /* Pods-TestSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		38FA969EA5C463A3EEDBC5D34654B8D8 /* SNTestSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SNTestSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3D0340B8AC5BD3FDE9BCEB312FBED61F /* Root.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Root.plist; sourceTree = "<group>"; };
 		3D60A41263A9EBABCCD5CE088CD45181 /* SNAlbumsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SNAlbumsViewController.m; sourceTree = "<group>"; };
 		405805F8080C8878478DFFAA97BE02BD /* SNImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SNImagePickerController.h; path = TestSDK/Classes/SNImagePickerController.h; sourceTree = "<group>"; };
 		456A32FAB13A436158054EBE7BD8F6C7 /* Pods-TestSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4673586128542C117AA8C05B9C6D3F8C /* SNVideoIconView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SNVideoIconView.m; sourceTree = "<group>"; };
 		474E563E6A54108C4978D95AA27AABA6 /* SNAssetsCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SNAssetsCell.m; sourceTree = "<group>"; };
+		52927FA5891E454C83FD605E3EC6F947 /* SNImagePickerString.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = SNImagePickerString.strings; path = en.lproj/SNImagePickerString.strings; sourceTree = "<group>"; };
+		5FE9E04EBF20D31B63428928CF621644 /* SNLocalizationSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SNLocalizationSystem.h; sourceTree = "<group>"; };
 		6AFA247B2B03CE3C2E278656A5CD1A57 /* UIViewController+Base.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Base.m"; sourceTree = "<group>"; };
 		74715FF1A364BDA4639BDC60898D0BC3 /* SNAssetsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SNAssetsViewController.h; sourceTree = "<group>"; };
 		7A04B1CF783C0E1C8DF7BF53FAC1ED8C /* SNTestSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SNTestSDK-dummy.m"; sourceTree = "<group>"; };
 		7B1741D2C48EF15DC0C65F42D3EC75FA /* Pods-TestSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		7F8F4B74489DA800B565A12AB9A73FF4 /* SNView+Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNView+Frame.h"; sourceTree = "<group>"; };
+		7FA1A1A6A8DDC7C5C1197E461EA6CD90 /* SNImagePickerString.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = SNImagePickerString.strings; path = "zh-Hans.lproj/SNImagePickerString.strings"; sourceTree = "<group>"; };
+		86780FB9C8260AF0298060015AFCF09C /* SNImagePickerString.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = SNImagePickerString.strings; path = "zh-Hant.lproj/SNImagePickerString.strings"; sourceTree = "<group>"; };
 		8869A1582516D8861BCA92BEEC7845CA /* SNAlbumsCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SNAlbumsCell.h; sourceTree = "<group>"; };
 		897733DD9B95CCE602FEB8D3AB11C040 /* Pods-TestSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		8B1E38889048E44ECB1C135FB500CFD6 /* SNVideoIconView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SNVideoIconView.h; sourceTree = "<group>"; };
-		8D0612CD6D67FD33F0AFA2E874B68C40 /* SNLocalizationSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SNLocalizationSystem.h; sourceTree = "<group>"; };
 		97A8B6620DF54DF0AC01F33E7AE2150B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9B8564273CD127E832C315A57B7E6D6D /* SNLocalizationSystem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SNLocalizationSystem.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A447C728783418FD0AA4291B64641E2C /* Pods_TestSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5AD14583BAF9D960BB641429C2E6683 /* Pods_TestSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F76E8E123CAC5464887FD902983B00 /* SNAssetsCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SNAssetsCell.h; sourceTree = "<group>"; };
 		AB251C04CB9608137018D0C9C32CA3A0 /* SNAccessoryIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SNAccessoryIndicator.m; path = TestSDK/Classes/SNAccessoryIndicator.m; sourceTree = "<group>"; };
 		AC21E79EB6BB1B5797E678DAB6080145 /* SNVideoIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SNVideoIndicatorView.h; sourceTree = "<group>"; };
-		AEE93960B46F417E5F2B76D42F72645F /* SNImagePickerString.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = SNImagePickerString.strings; path = "zh-Hans.lproj/SNImagePickerString.strings"; sourceTree = "<group>"; };
 		B8C57F0DAF037326A07DFB23C2746914 /* Pods-TestSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BA1DFE86DCE4A6594975B8F4D93BC8E3 /* SNImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SNImagePickerController.m; path = TestSDK/Classes/SNImagePickerController.m; sourceTree = "<group>"; };
 		BEDB81C1C1B6F8627873A9E6E54AE846 /* SNNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SNNavigationController.m; path = TestSDK/Classes/SNNavigationController.m; sourceTree = "<group>"; };
@@ -126,7 +130,6 @@
 		DEEBF7B78E14E0CDD5116A930FB6F5A8 /* Pods-TestSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		DF31168DBD9FE6C77F261B0F7590984E /* SNCameraView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SNCameraView.h; sourceTree = "<group>"; };
 		E1E58FB0F8BFF3E9D988D7C6BAE77DF2 /* SNAlbumsDataModle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SNAlbumsDataModle.h; sourceTree = "<group>"; };
-		E3D9D0341B1DEBC2579E429A1A824EC2 /* SNLocalizationSystem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SNLocalizationSystem.m; sourceTree = "<group>"; };
 		EE9B81EFD156B9A7E30974C96CCBC030 /* Pods-TestSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		EEA6F604F78009DC6614B530714812B5 /* Pods-TestSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EED93DEE115130F4403821C6F5169A15 /* SNCheckmarkView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SNCheckmarkView.h; path = TestSDK/Classes/SNCheckmarkView.h; sourceTree = "<group>"; };
@@ -135,7 +138,6 @@
 		F8E93738921EFA2D816C023D0930EE04 /* SNAccessoryIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SNAccessoryIndicator.h; path = TestSDK/Classes/SNAccessoryIndicator.h; sourceTree = "<group>"; };
 		F8FB31A6B2D70DF269281E02F6AB59BC /* SNTestSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SNTestSDK.modulemap; sourceTree = "<group>"; };
 		F910F9C541B206F58C4B24716154BB5F /* SNTestSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNTestSDK-prefix.pch"; sourceTree = "<group>"; };
-		FCE345193B85DCC41579D7D983F9A003 /* SNImagePickerString.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = SNImagePickerString.strings; path = "zh-Hant.lproj/SNImagePickerString.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,19 +149,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		51EA5DF9E94F74639D68C71EE59001BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269A17510605AB56319A5886D99F9C08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5653E7BF6143534A4647A43C6E8B56F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				921536304115B6DD135ED05AB85531D5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ABCCA06CC9AA6EC716763E0F7E234E15 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABDC988308DBEEB7B445DEDB62E1EE67 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,17 +219,6 @@
 			path = TestSDK/Classes/Category;
 			sourceTree = "<group>";
 		};
-		36A8A4965E6460CF4666E04887CB3AAA /* Language */ = {
-			isa = PBXGroup;
-			children = (
-				96298C1721D91AFBF799F59B7E6AFC3A /* SNImagePickerString.strings */,
-				8D0612CD6D67FD33F0AFA2E874B68C40 /* SNLocalizationSystem.h */,
-				E3D9D0341B1DEBC2579E429A1A824EC2 /* SNLocalizationSystem.m */,
-			);
-			name = Language;
-			path = TestSDK/Classes/Language;
-			sourceTree = "<group>";
-		};
 		3F19C3B09860C4F803FB28A4D1CD673C /* SNTestSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,7 +234,7 @@
 				F70E0A48612D276084E1FDDBE836F381 /* Assets */,
 				34285E8EA3BD38E4FAE93C6FC40BBBFD /* Category */,
 				784495C0D46A4FC04940B226AD958E52 /* DrawView */,
-				36A8A4965E6460CF4666E04887CB3AAA /* Language */,
+				C7B5D0235E4BA0CD0A129FD77D4C8752 /* Language */,
 				7578FFA2B44F5BACC4A38077203C2BE2 /* Pod */,
 				3093C3B48AD2E12E3C74D1A365858ABD /* Support Files */,
 			);
@@ -294,6 +285,15 @@
 			path = TestSDK/Classes/DrawView;
 			sourceTree = "<group>";
 		};
+		8D8E0AFABC8D3F5B0FAFA3DEA21AE51E /* Language.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				3D0340B8AC5BD3FDE9BCEB312FBED61F /* Root.plist */,
+				6CFDD063EDF4E7D222C2174FBC84346B /* SNImagePickerString.strings */,
+			);
+			path = Language.bundle;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -314,6 +314,17 @@
 			);
 			name = Albums;
 			path = TestSDK/Classes/Albums;
+			sourceTree = "<group>";
+		};
+		C7B5D0235E4BA0CD0A129FD77D4C8752 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				5FE9E04EBF20D31B63428928CF621644 /* SNLocalizationSystem.h */,
+				9B8564273CD127E832C315A57B7E6D6D /* SNLocalizationSystem.m */,
+				8D8E0AFABC8D3F5B0FAFA3DEA21AE51E /* Language.bundle */,
+			);
+			name = Language;
+			path = TestSDK/Classes/Language;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -375,26 +386,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8533631533CF4FD8D718A4898F05752D /* Headers */ = {
+		ABE5CB8271BD485F37CA0CFBE5E035FB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				172AA06333FF7B0DA35454B1AC212E59 /* SNAccessoryIndicator.h in Headers */,
-				40FE89BAC226A7A1F3EF0062F8AFF03C /* SNAlbumsCell.h in Headers */,
-				2F31647BD12B9D95B0A91687B09E505E /* SNAlbumsDataModle.h in Headers */,
-				C95BEB40D732FF29FB53C92C70D941C7 /* SNAlbumsViewController.h in Headers */,
-				0778B0F73853644677669E9B622D5F57 /* SNAssetsCell.h in Headers */,
-				F5AE1FD74BF2484D873488377091A7C7 /* SNAssetsViewController.h in Headers */,
-				0868A76B1A62F89D68B54C1ABA990C6C /* SNCameraView.h in Headers */,
-				599F4EDE91D8CCAA03611AFC015F5479 /* SNCheckmarkView.h in Headers */,
-				89C3EA27C5E7D740091E973E56602FBC /* SNImagePickerController.h in Headers */,
-				6B664978EC9A2665094460302D01DD69 /* SNLocalizationSystem.h in Headers */,
-				971654B327A588903645ED503D677F56 /* SNNavigationController.h in Headers */,
-				52BF2AB050E199F5361EDF9AC4BA09B5 /* SNTestSDK-umbrella.h in Headers */,
-				FE63A8E477277CA71BB3D1A9CA672154 /* SNVideoIconView.h in Headers */,
-				6FFCC1E6672BAABEB4D1895421C01ADA /* SNVideoIndicatorView.h in Headers */,
-				6FC211AA3EE4358DDBE151F48112FD72 /* SNView+Frame.h in Headers */,
-				FF0492BA145590BF350A1F8956D12D79 /* UIViewController+Base.h in Headers */,
+				4CF21A24FCA8A8114122E1CAE483B86A /* SNAccessoryIndicator.h in Headers */,
+				4F0ACF78C202315E5A6782783C1D447B /* SNAlbumsCell.h in Headers */,
+				F7652F5FF630B551EF52D8522D0B0357 /* SNAlbumsDataModle.h in Headers */,
+				759F8328E0A637450EAD6F0C7B950DB2 /* SNAlbumsViewController.h in Headers */,
+				AABE17073BB6A7B030A9B457CB318778 /* SNAssetsCell.h in Headers */,
+				2E4C34FD49BD26C9A24A968D73DFE347 /* SNAssetsViewController.h in Headers */,
+				A6C5E6ADF8E446D5D51D02D073E8BA63 /* SNCameraView.h in Headers */,
+				3F1ADDBF5E5B7D64C038898E23F74C5E /* SNCheckmarkView.h in Headers */,
+				B16B63947FCE13EAF9223D69FB3CE455 /* SNImagePickerController.h in Headers */,
+				744C7E1B29220E6070BBDF11A0BD0E45 /* SNLocalizationSystem.h in Headers */,
+				6DF904D295B675896E72492B495FC4F5 /* SNNavigationController.h in Headers */,
+				44AEAA5E3A5801D2945F10728EFDE7A6 /* SNTestSDK-umbrella.h in Headers */,
+				B44B59D1BB82A9821FF51294ECD0D6A8 /* SNVideoIconView.h in Headers */,
+				C3404ED38AA44B1C9CC87C1E3262661D /* SNVideoIndicatorView.h in Headers */,
+				E60EA9217FD42CEB9E9A5DDC484698FE /* SNView+Frame.h in Headers */,
+				FE0DE0E89AEF9F27A5DCCCD10AF3D96F /* UIViewController+Base.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,12 +460,12 @@
 		};
 		46B12CE70911AD4D08FF63E9E3753324 /* SNTestSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E42BA33DF4F1560C8A8047D1D059458 /* Build configuration list for PBXNativeTarget "SNTestSDK" */;
+			buildConfigurationList = 4412B2C7F61BDFDCAA3EF30B277EEB76 /* Build configuration list for PBXNativeTarget "SNTestSDK" */;
 			buildPhases = (
-				8533631533CF4FD8D718A4898F05752D /* Headers */,
-				4BBAF4D44EC02397C6444DBCE3CF61A4 /* Sources */,
-				ABCCA06CC9AA6EC716763E0F7E234E15 /* Frameworks */,
-				9E0CB6321DF3E23A0625CB2C440C6B13 /* Resources */,
+				ABE5CB8271BD485F37CA0CFBE5E035FB /* Headers */,
+				C7ED0D586205606B45DCD2D598E42FDE /* Sources */,
+				51EA5DF9E94F74639D68C71EE59001BE /* Frameworks */,
+				41EE0DB5F33E4A3BD75FBAB30DF1917C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -505,14 +516,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		561E686DEACBC16B94B12F43C44A209D /* Resources */ = {
+		41EE0DB5F33E4A3BD75FBAB30DF1917C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E0CB6321DF3E23A0625CB2C440C6B13 /* Resources */ = {
+		561E686DEACBC16B94B12F43C44A209D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -522,33 +533,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4BBAF4D44EC02397C6444DBCE3CF61A4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01AC5A4E0B6E413A7EBCF9D74058BAD5 /* SNAccessoryIndicator.m in Sources */,
-				D0F79881A13DC5BAFA3675C127A59D71 /* SNAlbumsCell.m in Sources */,
-				FA06BE8DE3677BCC05574C287728AF68 /* SNAlbumsDataModle.m in Sources */,
-				A026B7B71FAA819677622DEF61E41869 /* SNAlbumsViewController.m in Sources */,
-				C1C59CD2C018ED458611D17FAC971D2F /* SNAssetsCell.m in Sources */,
-				192725FF600A5945D3F9D64B20F132BC /* SNAssetsViewController.m in Sources */,
-				9402B6A7E1B6F043C3808D2A53C05D98 /* SNCameraView.m in Sources */,
-				530ABC2F16B590240EED93F46C1890AD /* SNCheckmarkView.m in Sources */,
-				2DA0A13F3341220D34D01A08CC254570 /* SNImagePickerController.m in Sources */,
-				73F8C4A225A9F1E48FF22B5D7AEFB36E /* SNImagePickerString.strings in Sources */,
-				0401A9ECD1DAC79E521BA1691771C457 /* SNImagePickerString.strings in Sources */,
-				943E04C692CFBCC2829C44F214D08D85 /* SNImagePickerString.strings in Sources */,
-				7049B15E34943C2CE660B927BDA65585 /* SNImagePickerString.strings in Sources */,
-				DCC2B109C4F7C7016C1FEA7F7910BCB1 /* SNLocalizationSystem.m in Sources */,
-				E09A00DA9820375B68FC5EA2E4006FA0 /* SNNavigationController.m in Sources */,
-				555EA964F41D40E5CB09B28F14E40B70 /* SNTestSDK-dummy.m in Sources */,
-				D0E5ABAA5740EF814D5BC1BBB33900CC /* SNVideoIconView.m in Sources */,
-				E8569E7E53ED5FC081205D54890525C4 /* SNVideoIndicatorView.m in Sources */,
-				517A8DBD835954F2350FA8996D5AFF9E /* SNView+Frame.m in Sources */,
-				9937A585F3712E25687D45273CBB91A8 /* UIViewController+Base.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		578DAB74C83975D1FDD73CE65256BBFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -562,6 +546,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				3540BC59E3A977272FB0BEC90C14F778 /* Pods-TestSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7ED0D586205606B45DCD2D598E42FDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C218AFFC06B989D4CFEF0FF1DB584A1 /* Root.plist in Sources */,
+				436287B36C174DB5F42975EF540C9F85 /* SNAccessoryIndicator.m in Sources */,
+				0C9483FE5FE108DDEB68EBA198E9184F /* SNAlbumsCell.m in Sources */,
+				1A549FD0E3BA675F90320226BF821301 /* SNAlbumsDataModle.m in Sources */,
+				FB8D243CA337F34CB51B96BFAF3CDD3E /* SNAlbumsViewController.m in Sources */,
+				E4B120AF3535C5B847C8AC7B531BF2D5 /* SNAssetsCell.m in Sources */,
+				702C7CF905E69F48D7E0DF814F6047B5 /* SNAssetsViewController.m in Sources */,
+				0C6BE19159FEA54E3C931A09469D550F /* SNCameraView.m in Sources */,
+				F4C8856E5F41895025D109F29FDC65BA /* SNCheckmarkView.m in Sources */,
+				537FF917EFA371EA759ED226AD63EED3 /* SNImagePickerController.m in Sources */,
+				F65068F1E19907FE0E1A41C73294EDD1 /* SNImagePickerString.strings in Sources */,
+				EDE92D05EE29B797535856042176E8E7 /* SNImagePickerString.strings in Sources */,
+				FC8B220CD0CE687F6E30A912C19CFB26 /* SNImagePickerString.strings in Sources */,
+				E2874012FFE90963FE2A8B567AB8DB24 /* SNImagePickerString.strings in Sources */,
+				374714FAB7F08249F97908CB6177FB6F /* SNLocalizationSystem.m in Sources */,
+				146A1AE90B0E83DFA1DB6770A4C03551 /* SNNavigationController.m in Sources */,
+				E232D21E786180E823FB36C4DE87420A /* SNTestSDK-dummy.m in Sources */,
+				84311CF97BBA822782A072C4E8270B54 /* SNVideoIconView.m in Sources */,
+				367FA1352B7DFC9BF1F88B256C5C7262 /* SNVideoIndicatorView.m in Sources */,
+				1E50907C59527C41A2E6BDA62250D813 /* SNView+Frame.m in Sources */,
+				72E9DE350EC390F6AF6B071794BCB020 /* UIViewController+Base.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,13 +595,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		96298C1721D91AFBF799F59B7E6AFC3A /* SNImagePickerString.strings */ = {
+		6CFDD063EDF4E7D222C2174FBC84346B /* SNImagePickerString.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0D9C072077DB58434F85388B890A9D46 /* SNImagePickerString.strings */,
-				AEE93960B46F417E5F2B76D42F72645F /* SNImagePickerString.strings */,
-				FCE345193B85DCC41579D7D983F9A003 /* SNImagePickerString.strings */,
-				08F43B3B61F16E1D7F8F8D62F86A030D /* SNImagePickerString.strings */,
+				52927FA5891E454C83FD605E3EC6F947 /* SNImagePickerString.strings */,
+				7FA1A1A6A8DDC7C5C1197E461EA6CD90 /* SNImagePickerString.strings */,
+				86780FB9C8260AF0298060015AFCF09C /* SNImagePickerString.strings */,
+				073847DA46A83B1F880B29B249818D15 /* SNImagePickerString.strings */,
 			);
 			name = SNImagePickerString.strings;
 			path = .;
@@ -731,6 +743,38 @@
 			};
 			name = Debug;
 		};
+		8E52D2BC67A3F3A57C2E56B3F3F8CEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35901711D7B165D203EAABBCF59DD58A /* SNTestSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SNTestSDK/SNTestSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SNTestSDK/SNTestSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SNTestSDK/SNTestSDK.modulemap";
+				PRODUCT_MODULE_NAME = SNTestSDK;
+				PRODUCT_NAME = SNTestSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		93CC0552384EAF75AAFBDD534161DA70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35CD15AD472B20202AE5858B6C0AEE71 /* Pods-TestSDK_Example.debug.xcconfig */;
@@ -764,6 +808,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		9EE63ED5C73EAA0725C7F3A8DA8D60DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C2657A0D2FBB34B2C399A9455825AB0 /* SNTestSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SNTestSDK/SNTestSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SNTestSDK/SNTestSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SNTestSDK/SNTestSDK.modulemap";
+				PRODUCT_MODULE_NAME = SNTestSDK;
+				PRODUCT_NAME = SNTestSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -824,39 +901,6 @@
 			};
 			name = Release;
 		};
-		B31C82BE61AAF0D4822065F8FCEB996C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C2657A0D2FBB34B2C399A9455825AB0 /* SNTestSDK.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SNTestSDK/SNTestSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SNTestSDK/SNTestSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SNTestSDK/SNTestSDK.modulemap";
-				PRODUCT_MODULE_NAME = SNTestSDK;
-				PRODUCT_NAME = SNTestSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		DCE9008495CA0438E4BEDE17C9882675 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B8C57F0DAF037326A07DFB23C2746914 /* Pods-TestSDK_Tests.release.xcconfig */;
@@ -892,38 +936,6 @@
 			};
 			name = Release;
 		};
-		DE3DF01A7C205192F70A50A877698F9C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35901711D7B165D203EAABBCF59DD58A /* SNTestSDK.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SNTestSDK/SNTestSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SNTestSDK/SNTestSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SNTestSDK/SNTestSDK.modulemap";
-				PRODUCT_MODULE_NAME = SNTestSDK;
-				PRODUCT_NAME = SNTestSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -945,20 +957,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4412B2C7F61BDFDCAA3EF30B277EEB76 /* Build configuration list for PBXNativeTarget "SNTestSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E52D2BC67A3F3A57C2E56B3F3F8CEB7 /* Debug */,
+				9EE63ED5C73EAA0725C7F3A8DA8D60DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				196DFA3E4A09A28224918543529A1885 /* Debug */,
 				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8E42BA33DF4F1560C8A8047D1D059458 /* Build configuration list for PBXNativeTarget "SNTestSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE3DF01A7C205192F70A50A877698F9C /* Debug */,
-				B31C82BE61AAF0D4822065F8FCEB996C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
